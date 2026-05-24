@@ -1,0 +1,10 @@
+^C:\USERS\DANIE\DOCUMENTS\GITHUB\CPP_PLAYGROUND\BUILD\CMAKEFILES\3B56C05957271A664BF1B2D3061E740B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/danie/Documents/GitHub/CPP_Playground -BC:/Users/danie/Documents/GitHub/CPP_Playground/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/danie/Documents/GitHub/CPP_Playground/build/MyProject.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
