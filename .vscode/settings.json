@@ -1,0 +1,10 @@
+ {
+    "files.exclude": {
+        "**/*.exe": true,
+        "**/*.obj": true,
+        "**/*.ilk": true,
+        "**/*.pdb": true
+    },
+    "debug.internalConsoleOptions": "neverOpen",
+    "lldb.suppressMissingSourceFiles": true
+}
