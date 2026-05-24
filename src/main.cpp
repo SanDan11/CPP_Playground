@@ -1,8 +1,11 @@
 #include <iostream>
 
 #include "player.hpp"
+#include "game.hpp"
 
 int main() {
-    Player player = createPlayer("Alice", 1, 100, 50, 20, 15, 10);
+    
+    prompt();
+
     return 0;
 }
